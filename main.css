@@ -1,0 +1,127 @@
+/* FONT */
+
+@font-face {
+font-family: 'Circular Std Black';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Black'), url(.../Fonts/'CircularStd-Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Book';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Book'), url(.../Fonts/'CircularStd-Book.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Medium';
+font-style: normal;
+font-weight: normal;
+src: ('Circular Std Medium'), url(.../Fonts/'CircularStd-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Black Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Black Italic'), url(.../Fonts/'CircularStd-BlackItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Bold'), url(.../Fonts/'CircularStd-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Bold Italic'), url(.../Fonts/'CircularStd-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Book Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Book Italic'), url(.../Fonts/'CircularStd-BookItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Medium Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Medium Italic'), url(.../Fonts/'CircularStd-MediumItalic.woff') format('woff');
+}
+/* FONT */
+
+
+body {
+    margin: none;
+    font: sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #00c9ff, #92fe9d);
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Circular Std Black';
+    font-size: 35px;
+    font-weight: normal;
+    padding: 100px 0 10 0;
+    color: white;
+}
+
+p{
+    font-family: 'Circular Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+}
+
+.Twitter {
+    text-decoration: none;
+    font-family: 'Circular Std Bold';
+    Font-weight: normal;
+    
+    color: white;
+    border: 3px solid white;
+    border-radius: 200px;   
+    padding: 10px 30px;
+    margin: 100px 0 0 0;
+}
+
+.Twitter:hover {
+    background-color: white;
+    color: #00aced;
+    transition: color 0.3s ease-in-out;
+}
+
+.copy {
+    font-family: 'Circular Std Book';
+    color: #3e3e3e;
+    font-weight: 50;
+    font-size: 10px;
+    background-color: white;
+    padding: 20px;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+
+.copysb {
+    color: #92fe9d;
+    text-decoration: none;
+}
